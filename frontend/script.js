@@ -4,7 +4,7 @@ document.getElementById('predictForm').addEventListener('submit', async function
     const cibil_score = document.getElementById('cibil_score').value;
     const loan_amount = document.getElementById('loan_amount').value;
 
-    const response = await fetch('https://your-backend-url.onrender.com/predict', {
+    const response = await fetch('https://loan-approval-prediction-enww.onrender.com/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ cibil_score, loan_amount })
