@@ -23,50 +23,33 @@ Loan-Approval-Prediction/
 ├── script.js                      # Frontend JS (fetches prediction)
 ├── README.md                      # This file
 
-🧠 How It Works
-1. Model
-Trained using XGBoostClassifier on a dataset with cibil_score and loan_amount as features
 
-Target variable is binary: 1 (Approved) or 0 (Not Approved)
+---
 
-Saved using Python's pickle
+## 🧠 How It Works
 
-2. Backend
-Built with Flask
+### 1. Model
+- Trained using `XGBoostClassifier` on a dataset with `cibil_score` and `loan_amount` as features
+- Target variable is binary: `1` (Approved) or `0` (Not Approved)
+- Saved using Python's `pickle`
 
-Exposes a /predict API endpoint
+### 2. Backend
+- Built with Flask
+- Exposes a `/predict` API endpoint
+- Hosted on [Render](https://render.com)
 
-Hosted on Render
+### 3. Frontend
+- HTML/CSS/JS form
+- Sends input to Flask API and displays prediction result
+- Hosted with GitHub Pages
 
-3. Frontend
-HTML/CSS/JS form
+---
 
-Sends input to Flask API and displays prediction result
+## 🛠 Installation (Local Dev)
 
-Hosted with GitHub Pages
+### 🔗 Backend (Flask API)
 
-🛠 Installation (Local Dev)
-🔗 Backend (Flask API)
-
+```bash
 cd backend/
 pip install -r requirements.txt
 python app.py
-
-🌐 Frontend
-Open index.html in a browser OR deploy via GitHub Pages.
-
-📒 Jupyter Notebook
-See the full training process, data cleaning, model accuracy, and feature importance in:
-
-Loan_Prediction_Analysis.ipynb
-📦 Deployment
-🔁 Backend
-Hosted on Render:
-https://loan-approval-prediction-enww.onrender.com
-
-Flask app binds to 0.0.0.0:$PORT for Render compatibility
-
-🌐 Frontend
-Deployed via GitHub Pages:
-https://seakty.github.io/Loan-Approval-Prediction/
-
