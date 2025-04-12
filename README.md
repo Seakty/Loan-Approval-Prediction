@@ -12,7 +12,7 @@ This is a full-stack machine learning web application that predicts loan approva
 
 ## 📁 Project Structure
 
-```plaintext
+plaintext
 Loan-Approval-Prediction/
 ├── XGBClassifier_model1.pkl       # Trained model file
 ├── app.py                         # Flask backend (API)
@@ -21,7 +21,7 @@ Loan-Approval-Prediction/
 ├── index.html                     # Frontend HTML
 ├── style.css                      # Frontend CSS
 ├── script.js                      # Frontend JS (fetches prediction)
-├── README.md                      # This file```
+├── README.md                      # This file
 ---
 
 ## 🧠 How It Works
@@ -50,4 +50,5 @@ Loan-Approval-Prediction/
 ```bash
 cd backend/
 pip install -r requirements.txt
-python app.py```
+python app.py
+```
