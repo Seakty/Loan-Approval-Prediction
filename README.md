@@ -21,9 +21,7 @@ Loan-Approval-Prediction/
 ├── index.html                     # Frontend HTML
 ├── style.css                      # Frontend CSS
 ├── script.js                      # Frontend JS (fetches prediction)
-├── README.md                      # This file
-
-
+├── README.md                      # This file```
 ---
 
 ## 🧠 How It Works
@@ -52,4 +50,4 @@ Loan-Approval-Prediction/
 ```bash
 cd backend/
 pip install -r requirements.txt
-python app.py
+python app.py```
