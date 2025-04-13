@@ -53,6 +53,9 @@ https://loan-approval-prediction-enww.onrender.com
 
 Flask app binds to 0.0.0.0:$PORT for Render compatibility
 
+![image](https://github.com/user-attachments/assets/686b1fe6-f95c-4c6b-a070-56dd6fe61a09)
+
+
 ## 🌐 Frontend
 Deployed via GitHub Pages:
 https://seakty.github.io/Loan-Approval-Prediction/
